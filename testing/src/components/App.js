@@ -40,14 +40,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        ==================
         <h3>Examples from javascript</h3>
         <ul>
           <li>
             <button onClick={() => this.example1()}>Example 1</button>
           </li>
         </ul>
-        ==================
         {this.renderHeader()}
         <Route path="/post" component={CommentBox} />
         <Route path="/" exact component={CommentList} />

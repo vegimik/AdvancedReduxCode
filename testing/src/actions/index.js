@@ -22,4 +22,5 @@ export function changeAuth(isAuthenticated) {
     type: CHANGE_AUTH,
     payload: isAuthenticated,
   }
-} // end changeAuth
+} 
+// end changeAuth
